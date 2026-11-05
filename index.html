@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zoho Website Replica - Student Project</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Navigation Bar ===== -->
+  <header class="navbar">
+    <div class="logo">ZOHO</div>
+
+    <nav id="menu">
+      <a href="#products">Products</a>
+      <a href="#customers">Customers</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-buttons">
+      <a href="#" class="btn-outline">Sign In</a>
+      <a href="#signup" class="btn">Sign Up Now</a>
+    </div>
+
+    <!-- Menu button for small screens -->
+    <button class="menu-btn" id="menuBtn">&#9776;</button>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero">
+    <h1>Your life's work,<br>powered by our life's work</h1>
+    <p>
+      A unique and powerful software suite to transform the way you work.
+      Designed for businesses of all sizes, built by a company that values your privacy.
+    </p>
+    <a href="#signup" class="btn big-btn">Get Started For Free</a>
+  </section>
+
+  <!-- ===== Products Section ===== -->
+  <section class="products" id="products">
+    <h2>Our Popular Products</h2>
+    <p class="sub-text">Click on a product to know more about it.</p>
+
+    <div class="product-grid">
+      <div class="card">
+        <div class="icon" style="background:#e42527;">C</div>
+        <h3>CRM</h3>
+        <p>Manage your customers and grow your sales.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon" style="background:#226db4;">M</div>
+        <h3>Mail</h3>
+        <p>Secure and ad-free email for your business.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon" style="background:#089949;">B</div>
+        <h3>Books</h3>
+        <p>Easy online accounting for small businesses.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon" style="background:#f9b21d;">P</div>
+        <h3>Projects</h3>
+        <p>Plan, track and finish your work on time.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon" style="background:#8e44ad;">D</div>
+        <h3>Desk</h3>
+        <p>Help desk software to support your customers.</p>
+      </div>
+
+      <div class="card">
+        <div class="icon" style="background:#16a085;">P</div>
+        <h3>People</h3>
+        <p>Manage your employees and HR tasks.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Customers Section ===== -->
+  <section class="customers" id="customers">
+    <h2>Trusted by businesses around the world</h2>
+    <div class="stats">
+      <div class="stat">
+        <h3 class="counter" data-target="100">0</h3>
+        <p>Million+ Users</p>
+      </div>
+      <div class="stat">
+        <h3 class="counter" data-target="55">0</h3>
+        <p>Plus Apps</p>
+      </div>
+      <div class="stat">
+        <h3 class="counter" data-target="150">0</h3>
+        <p>Countries</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section class="about" id="about">
+    <h2>Why choose us?</h2>
+    <div class="about-grid">
+      <div class="about-box">
+        <h3>Privacy First</h3>
+        <p>We do not sell your data or show you ads.</p>
+      </div>
+      <div class="about-box">
+        <h3>All in One</h3>
+        <p>All your business apps work together in one place.</p>
+      </div>
+      <div class="about-box">
+        <h3>Affordable</h3>
+        <p>Simple pricing plans for every type of business.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Sign Up Section ===== -->
+  <section class="signup" id="signup">
+    <h2>Join us today</h2>
+    <p>Enter your email to get updates (demo only).</p>
+    <form id="signupForm">
+      <input type="email" id="email" placeholder="Enter your email">
+      <button type="submit" class="btn">Subscribe</button>
+    </form>
+    <p id="message"></p>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer id="contact">
+    <div class="footer-grid">
+      <div>
+        <h4>Products</h4>
+        <p>CRM</p>
+        <p>Mail</p>
+        <p>Books</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <p>About Us</p>
+        <p>Careers</p>
+        <p>Blog</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Email: info@example.com</p>
+        <p>Phone: +977-0000000000</p>
+      </div>
+    </div>
+    <p class="copy">
+      Made by a Aayush chaudhary for learning purposes only. Not affiliated with Zoho Corporation.
+    </p>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="topBtn">&#8679;</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
